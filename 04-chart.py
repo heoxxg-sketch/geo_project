@@ -6,7 +6,7 @@ import numpy as np
 
 # plt.rcParams['font.family'] = "AppleGothic"
 
-plt.rcParams['font.family'] = "NanumGothic"
+plt.rcParams['font.family'] = "Malgun Gothic"
 
 data = pd.DataFrame({
     '이름' : ['연준', '선미님', '동완님'],
@@ -22,5 +22,6 @@ st.pyplot(flg)
 
 barplot = sns.barplot(x='이름', y='나이', data=data, ax=ax, palette='Set2')
 flg= barplot.get_figure()
+
 
 st.pyplot(flg)
