@@ -6,7 +6,7 @@ import numpy as np
 
 # plt.rcParams['font.family'] = "AppleGothic"
 
-plt.rcParams['font.family'] = "NanumGothic"
+plt.rcParams['font.family'] = "NanumBarunGothic"
 plt.rcParams['axes.unicode_minus'] = False
 
 data = pd.DataFrame({
@@ -26,5 +26,6 @@ flg= barplot.get_figure()
 
 
 st.pyplot(flg)
+
 
 
