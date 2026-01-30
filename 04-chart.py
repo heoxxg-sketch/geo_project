@@ -3,6 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
+import koreanize_matplotlib
 
 # plt.rcParams['font.family'] = "AppleGothic"
 
@@ -26,6 +27,7 @@ flg= barplot.get_figure()
 
 
 st.pyplot(flg)
+
 
 
 
