@@ -4,4 +4,4 @@ numpy
 matplotlib
 pydeck
 seaborn
-koreanize_matplotlib
+
