@@ -1,15 +1,4 @@
 streamlit
-pydeck
 pandas
 numpy
-geopandas
-shapely
-pyproj
-fiona
-rtree
-osmnx
-networkx
-folium
-streamlit-folium
-scikit-learn
-
+pydeck
